@@ -29,6 +29,5 @@ public class Exercicio05 {
 			System.out.println("O lixo de peso3 é : " + peso3 + " ele é o de menor peso");
 		}
 		leitor.close();
-	}	
-
+	}
 }
