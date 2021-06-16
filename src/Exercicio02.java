@@ -15,8 +15,8 @@ public class Exercicio02 {
 		hora = tempo / 60;
 		minutos = tempo % 60;
 		segundos = tempo * 60;
-		System.out.println("O tempo de duração do filme em horas e minutos são : " + hora +"Hs " + minutos + "m" +
-		" e em segundos " + segundos + "s");
+		System.out.println("O tempo de duração do filme é " + hora + "Hs " + " e " + minutos + "min" +
+		" e total em segundos " + segundos + "s");
 		
 		leitor.close();
 	}
