@@ -8,13 +8,15 @@ public class Exercicio02 {
 		 * informe a duração desse filme em horas e em segundos.
 		 */
 		Scanner leitor = new Scanner(System.in);
-		int tempo,hora,minutos;
+		int tempo,hora,minutos,segundos;
 		System.out.println("Digite a duração do filme em minutos");
 		tempo = leitor.nextInt();
 		
 		hora = tempo / 60;
 		minutos = tempo % 60;
-		System.out.println("O tempo de duração do filme em horas e minutos são : Horas " + hora + " Minutos " + minutos);
+		segundos = tempo * 60;
+		System.out.println("O tempo de duração do filme em horas e minutos são : " + hora +"Hs " + minutos + "m" +
+		" e em segundos " + segundos + "s");
 		
 		leitor.close();
 	}

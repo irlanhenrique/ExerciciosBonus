@@ -15,6 +15,8 @@ public class Exercicio01 {
 		
 		System.out.println("A sua idade em 2021 é de, " + idade +" anos");
 		
+		data.close();
+		
 
 	}
 
